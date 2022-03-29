@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/tenzies-react/static/css/main.073c9b0a.css",
-    "main.js": "/tenzies-react/static/js/main.8c63c78f.js",
-    "static/js/787.8254c0cc.chunk.js": "/tenzies-react/static/js/787.8254c0cc.chunk.js",
-    "static/media/logo.svg": "/tenzies-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/tenzies-react/static/css/main.10bba4a1.css",
+    "main.js": "/tenzies-react/static/js/main.6ce72c04.js",
     "index.html": "/tenzies-react/index.html",
-    "main.073c9b0a.css.map": "/tenzies-react/static/css/main.073c9b0a.css.map",
-    "main.8c63c78f.js.map": "/tenzies-react/static/js/main.8c63c78f.js.map",
-    "787.8254c0cc.chunk.js.map": "/tenzies-react/static/js/787.8254c0cc.chunk.js.map"
+    "main.10bba4a1.css.map": "/tenzies-react/static/css/main.10bba4a1.css.map",
+    "main.6ce72c04.js.map": "/tenzies-react/static/js/main.6ce72c04.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.8c63c78f.js"
+    "static/css/main.10bba4a1.css",
+    "static/js/main.6ce72c04.js"
   ]
 }
