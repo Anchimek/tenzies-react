@@ -7,3 +7,6 @@ Simple react app using:
 - effect Hook,
 - ternarny operators,
 - map and every method.
+
+API used:
+https://github.com/alampros/react-confetti
