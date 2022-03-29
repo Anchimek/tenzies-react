@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #0B2434;
+    margin: 0;   
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 5px;
+}
+
+.game-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+
+    background: #F5F5F5;
+    border-radius: 10px;
+    width: 320px;
+    height: 320px;
+}
+
+h1, h2 {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+
+    text-align: center;
+    color: #2B283A;
+}
+
+
+h1 {
+    font-size: 26px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 21px;
+}
+
+p {
+    font-size: 13px;
+
+    margin: 0;
+    padding: 5px 44px 23px 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #4A4E74;
+}
+
+.dice-container {
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    justify-items: center;
+    gap: 19px;
+    margin: 10px 0 26px 0;
+}
+
+.die {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+}
+
+button {
+    background: #5035FF;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.18);
+    border-radius: 4px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    line-height: 19px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+
+    color: #FFFFFF;
+    height: 36px;
+    width: 92px;
+}
+
+button:hover {
+    -webkit-box-shadow: inset 0px 0px 100px -35px rgba(66, 68, 90, 1);
+    -moz-box-shadow: inset 0px 0px 100px -35px rgba(66, 68, 90, 1);
+    box-shadow: inset 0px 0px 100px -35px rgba(66, 68, 90, 1);
+}
